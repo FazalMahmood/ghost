@@ -1,33 +1,28 @@
 # Ghost Framework
 
-![ghost](https://user-images.githubusercontent.com/54115104/74161285-c0339000-4c2f-11ea-8c8a-5673cc70a786.jpeg)
 
-<p align="center">
-  <a href="http://entynetproject.simplesite.com/">
-    <img src="https://img.shields.io/badge/entynetproject-Ivan%20Nikolsky-blue.svg">
-  </a> 
-  <a href="https://github.com/entynetproject/ghost/releases">
-    <img src="https://img.shields.io/github/release/entynetproject/ghost.svg">
-  </a>
-  <a href="https://wikipedia.org/wiki/Python_(programming_language)">
-    <img src="https://img.shields.io/badge/language-python-blue.svg">
- </a>
-  <a href="https://github.com/entynetproject/ghost/issues?q=is%3Aissue+is%3Aclosed">
-      <img src="https://img.shields.io/github/issues/entynetproject/ghost.svg">
-  </a>
-  <a href="https://github.com/entynetproject/ghost/wiki">
-      <img src="https://img.shields.io/badge/wiki%20-ghost-lightgrey.svg">
- </a>
-  <a href="https://twitter.com/entynetproject">
-    <img src="https://img.shields.io/badge/twitter-entynetproject-blue.svg">
- </a>
-</p>
+```
+      .-.
+    .'   `.
+    :0 0  :
+    : o    `.
+   :         ``.
+  :             `.
+ :  :         .   `.
+ :   :          ` . `.
+  `.. :            `. ``;
+     `:;             `:'
+        :              `.
+         `.              `.     
+           `'`'`'`---..,___`.
 
-![ghost](https://user-images.githubusercontent.com/54115104/72079297-b276ac00-330b-11ea-95f8-48022f5bff3d.png)
+```
+
+
 
 ***
 
-# About Ghost Framework
+# About
 
     Ghost Framework is an Android post-exploitation framework that uses an
     Android Debug Bridge to remotely access an Android device. Ghost Framework 
@@ -36,25 +31,66 @@
 ***
 
 # Installation
-> git clone https://github.com/FazalMahmood/ghost.git
+```
+git clone https://github.com/FazalMahmood/ghost.git
+```
+```
+cd ghost
+```
+```
+chmod +x install.sh
+```
+```
+sudo ./install.sh
+```
+```
+chmod +x ghost
+```
+```
+./ghost
+```
 
-> cd ghost
-
-> chmod +x install.sh
-
-> sudo ./install.sh
-
-> chmod +x ghost
-
-> ./ghost
+## Usage
+```
+[1] Show connected devices
+[2] Disconect all devices
+[3] Connect a new device
+[4] Access device shell
+[5] Install an apk on a device
+[6] Screen record a device
+[7] Get device screenshot
+[8] Restart Ghost Server
+[9] Pull files from device
+[10] Shutdown the device                             
+[11] Uninstall an app         
+[12] Show device log          
+[13] Dump System Info         
+[14] List all device apps     
+[15] Run a device app        
+[16] Port Forwarding         
+[17] Grab wpa_supplicant      
+[18] Show Mac/Inet            
+[19] Extract apk from app  
+[20] Get Battery Status
+[21] Get Network Status
+[22] Turn WiFi on/off
+[23] Remove device password
+[24] Emulate button presses
+[25] Get Current Activity
+[26] Update Ghost Framework
+[27] Exit Ghost Framework
+```
 
 ## Uninstall 
-
-> cd ghost
-
-> chmod +x uninstall.sh
-
-> sudo ./uninstall.sh
+```
+cd ghost
+```
+```
+chmod +x uninstall.sh
+```
+```
+sudo ./uninstall.sh
+```
 
 ***
 
