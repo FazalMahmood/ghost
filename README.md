@@ -35,32 +35,26 @@
     
 ***
 
-# Getting started
-
-## Ghost installation
+# Installation
+> git clone https://github.com/FazalMahmood/ghost.git
 
 > cd ghost
 
 > chmod +x install.sh
 
-> ./install.sh
+> sudo ./install.sh
 
-## Ghost uninstallation
+> chmod +x ghost
+
+> ./ghost
+
+## Uninstall 
 
 > cd ghost
 
 > chmod +x uninstall.sh
 
-> ./uninstall.sh
-
-***
-
-# Ghost Framework execution
-
-    To execute Ghost Framework you 
-    should execute the following command.
-
-> ghost
+> sudo ./uninstall.sh
 
 ***
 
